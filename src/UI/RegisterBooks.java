@@ -140,6 +140,8 @@ public class RegisterBooks extends javax.swing.JFrame {
                 + "\nAutor do Livro: " + txtAuthor.getText()
                 + "\nAno de Lançamento: " + txtYear.getText()
                 + "\nEditora: " + txtPublishingCompany.getText());
+                
+        this.dispose();
     }//GEN-LAST:event_btnRegisterActionPerformed
 
     /**
